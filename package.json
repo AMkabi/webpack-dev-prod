@@ -1,0 +1,12 @@
+{
+    "name": "webpack-dev-prod",
+    "version": "1.0.0",
+    "scripts": {
+        "webpack:dev": "webpack-dev-server",
+        "webpack:prod": "NODE_ENV=production webpack -p"
+    },
+    "devDependencies": {
+        "webpack": "^3.4.1",
+        "webpack-dev-server": "^2.6.1"
+    }
+}
